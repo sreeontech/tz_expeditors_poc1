@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
   <TalendProperties:Project xmi:id="_FmmGcfBdEembIO-FSrSQtA" label="tz_expeditors_poc1" language="java" technicalLabel="TZ_EXPEDITORS_POC1" author="_FmmGcvBdEembIO-FSrSQtA" productVersion="Talend Cloud Real-Time Big Data Platform-7.2.1.20190909_1200_patch" url="{&quot;location&quot;:&quot;https://github.com/sreeontech/tz_expeditors_poc1.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <componentsSettings xmi:id="_x5wHYPBnEemn8vn4luTk7A" name="DI|tSPSSInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5wucPBnEemn8vn4luTk7A" name="SPARK|tAvroMap" family="Processing"/>
+    <componentsSettings xmi:id="_x5wucfBnEemn8vn4luTk7A" name="DI|tAccessOutputBulkExec" family="Databases/DB Specifics/Access"/>
+    <componentsSettings xmi:id="_x5wucvBnEemn8vn4luTk7A" name="DI|tMSAXOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5wuc_BnEemn8vn4luTk7A" name="DI|CouchbaseOutput" family="Databases/Couchbase"/>
+    <componentsSettings xmi:id="_x5wudPBnEemn8vn4luTk7A" name="DI|tCentricCRMInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5wudfBnEemn8vn4luTk7A" name="DI|tOleDbOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5wudvBnEemn8vn4luTk7A" name="DI|tUniservRTPost" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5wud_BnEemn8vn4luTk7A" name="DI|tSasInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5xVgPBnEemn8vn4luTk7A" name="DI|tUniservRTMailSearch" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5xVgfBnEemn8vn4luTk7A" name="SPARKSTREAMING|tFlumeOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5xVgvBnEemn8vn4luTk7A" name="DI|tCouchDBInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5xVg_BnEemn8vn4luTk7A" name="DI|tMSAXInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5xVhPBnEemn8vn4luTk7A" name="DI|tPigFilterRow" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5xVhfBnEemn8vn4luTk7A" name="DI|tPigFilterColumns" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5xVhvBnEemn8vn4luTk7A" name="DI|tSAPBWInput" family="Business/SAP"/>
+    <componentsSettings xmi:id="_x5xVh_BnEemn8vn4luTk7A" name="DI|tMemSQLConnection" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5xViPBnEemn8vn4luTk7A" name="DI|tUniservBTGeneric" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8kPBnEemn8vn4luTk7A" name="DI|tPigCode" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8kfBnEemn8vn4luTk7A" name="DI|tSasOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8kvBnEemn8vn4luTk7A" name="DI|tQASAddressVerified" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8k_BnEemn8vn4luTk7A" name="DI|tPigDistinct" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8lPBnEemn8vn4luTk7A" name="MR|tMahoutClustering" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8lfBnEemn8vn4luTk7A" name="DI|tSAPIDocInput" family="Business/SAP"/>
+    <componentsSettings xmi:id="_x5x8lvBnEemn8vn4luTk7A" name="DI|tMemSQLInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8l_BnEemn8vn4luTk7A" name="DI|tMemSQLClose" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8mPBnEemn8vn4luTk7A" name="DI|tUniservRTConvertName" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5x8mfBnEemn8vn4luTk7A" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_x5x8mvBnEemn8vn4luTk7A" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_x5x8m_BnEemn8vn4luTk7A" name="DI|tSugarCRMOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjoPBnEemn8vn4luTk7A" name="DI|tOleDbRow" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjofBnEemn8vn4luTk7A" name="DI|tMemSQLRow" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjovBnEemn8vn4luTk7A" name="CAMEL|cAzureStorageBlob" family="Connectivity/File"/>
+    <componentsSettings xmi:id="_x5yjo_BnEemn8vn4luTk7A" name="DI|tSageX3Input" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjpPBnEemn8vn4luTk7A" name="DI|tMemSQLOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjpfBnEemn8vn4luTk7A" name="DI|tOleDbInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjpvBnEemn8vn4luTk7A" name="DI|tSPSSStructure" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjp_BnEemn8vn4luTk7A" name="SPARKSTREAMING|tAvroMap" family="Processing"/>
+    <componentsSettings xmi:id="_x5yjqPBnEemn8vn4luTk7A" name="CAMEL|cAzureStorageBlob" family="Azure"/>
+    <componentsSettings xmi:id="_x5yjqfBnEemn8vn4luTk7A" name="DI|tCentricCRMOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjqvBnEemn8vn4luTk7A" name="DI|tSageX3Output" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5yjq_BnEemn8vn4luTk7A" name="DI|tPigJoin" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKsPBnEemn8vn4luTk7A" name="DI|tFuzzyJoin" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKsfBnEemn8vn4luTk7A" name="DI|tPigAggregate" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKsvBnEemn8vn4luTk7A" name="DI|tPigMap" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKs_BnEemn8vn4luTk7A" name="DI|tUniservRTMailBulk" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKtPBnEemn8vn4luTk7A" name="DI|tPigStoreResult" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKtfBnEemn8vn4luTk7A" name="DI|tSPSSProperties" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKtvBnEemn8vn4luTk7A" name="DI|tPigCross" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKt_BnEemn8vn4luTk7A" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_x5zKuPBnEemn8vn4luTk7A" name="CAMEL|cAWSMQBroker" family="AWS"/>
+    <componentsSettings xmi:id="_x5zKufBnEemn8vn4luTk7A" name="DI|tPigCoGroup" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKuvBnEemn8vn4luTk7A" name="DI|tAccessBulkExec" family="Databases/DB Specifics/Access"/>
+    <componentsSettings xmi:id="_x5zKu_BnEemn8vn4luTk7A" name="DI|tUniservRTMailOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zKvPBnEemn8vn4luTk7A" name="DI|tPigSort" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zxwPBnEemn8vn4luTk7A" name="DI|tQASAddressIncomplete" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zxwfBnEemn8vn4luTk7A" name="DI|tCouchDBClose" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zxwvBnEemn8vn4luTk7A" name="DI|tPigLoad" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zxw_BnEemn8vn4luTk7A" name="DI|tCouchDBConnection" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zxxPBnEemn8vn4luTk7A" name="CAMEL|cAWSMQBroker" family="Connectivity/Messaging"/>
+    <componentsSettings xmi:id="_x5zxxfBnEemn8vn4luTk7A" name="DI|CouchbaseInput" family="Databases/Couchbase"/>
+    <componentsSettings xmi:id="_x5zxxvBnEemn8vn4luTk7A" name="DI|tQASAddressUnknown" family="Deprecated"/>
+    <componentsSettings xmi:id="_x5zxx_BnEemn8vn4luTk7A" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_x5zxyPBnEemn8vn4luTk7A" name="DI|tBlockedFuzzyJoin" family="Deprecated"/>
+    <componentsSettings xmi:id="_x50Y0PBnEemn8vn4luTk7A" name="SPARKSTREAMING|tFlumeInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x50Y0fBnEemn8vn4luTk7A" name="DI|tPigReplicate" family="Deprecated"/>
+    <componentsSettings xmi:id="_x50Y0vBnEemn8vn4luTk7A" name="DI|tSPSSOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x50Y0_BnEemn8vn4luTk7A" name="DI|tSAPHanaUnload" family="Databases/DB Specifics/SAP Hana"/>
+    <componentsSettings xmi:id="_x50Y1PBnEemn8vn4luTk7A" name="DI|tSugarCRMInput" family="Deprecated"/>
+    <componentsSettings xmi:id="_x50Y1fBnEemn8vn4luTk7A" name="DI|tCouchDBOutput" family="Deprecated"/>
     <migrationTask xmi:id="_Gr2eUPBdEembIO-FSrSQtA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_FmmGcvBdEembIO-FSrSQtA" login="sreekeerthipati@nfrrtbd.trianz.com" firstName="Sreedhar" lastName="Keerthipati" type="DQ"/>
