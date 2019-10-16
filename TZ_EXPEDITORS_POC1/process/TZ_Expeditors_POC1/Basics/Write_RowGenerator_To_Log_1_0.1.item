@@ -114,28 +114,28 @@
     <elementParameter field="TEXT" name="NB_ROWS" show="false" value="5"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getFirstName()"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getLastName()"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="city"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getUsCity()"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="state"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getUsState()"/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRowGenerator_1">
       <column comment="" key="false" length="-1" name="first_name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getFirstName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
       </column>
       <column comment="" key="false" length="-1" name="last_name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getLastName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
       </column>
       <column comment="" key="false" length="-1" name="city" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getUsCity&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
       </column>
       <column comment="" key="false" length="-1" name="state" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getUsState&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
       </column>
     </metadata>
   </node>
@@ -189,13 +189,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_73df9d30-c665-43e8-9d64-720884f4dbc9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MXjd2/GvwkJQRpYG8aanM4vZTKAdT4eo5hpvGDt1XR7ZhPokAySXP4IdQjxJk3mXwJKCe+yEf5k0
-itDclE3aCQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_219d8acb-b87b-45a1-bde6-de4ffdd0f660"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4cJ8YDRtV+N3PrSS5+M/03HZBmwuF40EYyori6893W/U+PhsyyOVTYA043lawuDFXd2eHKnuuBZI
-7AX4C0sttA==</DigestValue></Reference></SignedInfo><SignatureValue>iBaFxZhSQVstPE4skHG7JzaiiwBwG8oR07BOvLT4PvD83yOkpOaFYjUd/PVEABEOb356vYt33Gbl
-NsZWsxjo88qzM0cueG4Xbyv0QklQN9D661uOR6VYagQiUr96Ys9SFxZvoHZOGnYXnITXTVvf2YOa
-gebPxnDjvq7ULG0JvgUaQejo+xqHF7EO5Alf6U4fex6io1/Flear4ox+vJkVvTYPU27QinqdROtC
-8GWRtiDpRX0vl3/hVFi1Jt1UgpF+a9AwZOiCljUVVyTs4hR4upQBXB7j6tJ5VhLxLtwZwAgWE7Fr
-Z5dfv8nypta2IByxKhSQ67WvQ7i14HsgV51W4g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_403b7bd1-48b1-4246-a463-962f221d9c59"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>S1bX0Rb7Mi8Ja99urw+lOelm+Jq1uKZMLB9v0eLdQm5SobvfJlMv0M+mAzhPjq6CFEMaXlvmHaIS
+nAVYI5gZ7Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_338e906f-92d2-48e2-8dd2-3cb165220572"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zs5W/V6iyXFiZW7TPnla8Stg0tKshuX8FtbjfM+jwpLGzoBn71l3dqTWue3fIQZPSJLnp7Kql301
+e+GLrzPoRw==</DigestValue></Reference></SignedInfo><SignatureValue>KBdoSn23obWzkTjSx8L/4cQB3xDdnf79+uPtNdc4N5zRfi+aFZRNOg95WZEx/hhC/IWrnPnvb8YT
+9dL97tsEF33R2n7CpTpIUxh8ETj1eOF/0m0LG7/o7PuWrEfkpgbRzZUND2t4JZrTa3qn3Ssa5S+X
+O9z/zxjB14SOqGRsQr2ehAygSoc+B2Oh9UBQIDxyO6LJ9bvLpptNqevrtNMk+XFR1c49G6Wkr1Kh
+f8BkC8zmWAC+rq0b3HI2i8t+JqO66I1o8BOV+CNZ4NwDxPYtZwPn0pKnPZ2htVwhSzQVKQOX9bIQ
+xrM+FJ7VPsX+7gBXvkxgwZOmrzwLie0LqScowQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -217,4 +217,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_219d8acb-b87b-45a1-bde6-de4ffdd0f660" Target="#_73df9d30-c665-43e8-9d64-720884f4dbc9"><Timestamp>2019-10-16 21:50:07</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_338e906f-92d2-48e2-8dd2-3cb165220572" Target="#_403b7bd1-48b1-4246-a463-962f221d9c59"><Timestamp>2019-10-16 21:54:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
