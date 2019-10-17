@@ -11,8 +11,8 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/TZ_Expeditors_POC1/Basics/write_rowgenerator_to_log_1_0.1</module>
-    <module>jobs/process/TZ_Expeditors_POC/Validation/data_validation_1_0.1</module>
     <module>jobs/process/TZ_Expeditors_POC1/Cleansing/standardize_short_text_1_0.1</module>
+    <module>jobs/process/TZ_Expeditors_POC1/Validation/data_validation_1_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
